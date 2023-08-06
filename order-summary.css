@@ -28,6 +28,7 @@ body {
 .blue-img {
     border-radius: 20px 20px 0 0;
     vertical-align: bottom;             /*This closes the gap between the image div and the container div*/
+    max-width: 100%;
 }
 h1 {
     font-weight: 900;
@@ -49,6 +50,7 @@ h1 {
     align-items: center;
     justify-content: center;
     box-shadow: 0px 20px 15px rgba(0, 0, 0, 0.2);           /*shadow for the container div*/
+    max-width: 100%;
 }
 .pricing {
     background-color: hsl(225, 100%, 98%);
@@ -59,6 +61,7 @@ h1 {
     height: 100px;
     border-radius: 10px;
     margin: 0 auto;
+    max-width: 100%;
 }
 .icon  {
     margin: 0 5px 0 0;
